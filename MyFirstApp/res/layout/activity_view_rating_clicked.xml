@@ -1,0 +1,262 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home" >
+
+    <ImageView
+        android:id="@+id/imageViewHelp"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="655px"
+        android:layout_marginTop="5px"
+        android:contentDescription="This is the eat screen"
+        android:onClick="help"
+        android:src="@drawable/help" />
+
+    <!-- Last Button - Eat -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginLeft="576px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the eat screen"
+        android:onClick="eatClicked"
+        android:src="@drawable/eat" />
+
+    <!-- Fourth Button - Facts -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginLeft="432px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the facts screen"
+        android:onClick="factsClicked"
+        android:src="@drawable/facts" />
+
+    <!-- Third Button - Review -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginLeft="288px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the review screen"
+        android:onClick="reviewClicked"
+        android:src="@drawable/review_pressed" />
+
+    <!-- Second Button - Terms -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginLeft="144px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the terms screen"
+        android:onClick="termsClicked"
+        android:src="@drawable/terms" />
+
+    <!-- First button - Sip -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the sip screen"
+        android:onClick="sipClicked"
+        android:src="@drawable/sip" />
+
+    <!-- Home Button -->
+
+    <ImageView
+        android:id="@+id/imageViewHelp"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="5px"
+        android:contentDescription="This is the home button"
+        android:onClick="home"
+        android:src="@drawable/home_button" />
+    
+    <!-- No Ratings Field -->
+           <TextView android:id="@+id/noName"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="20px"
+        android:layout_gravity = "center"
+        android:textSize = "50px"  
+        android:visibility="gone"      
+        android:text="You currently have no ratings!" />
+           
+                           <Button
+                android:id="@+id/giveRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200px"
+                android:onClick="giveRating"
+                android:background="@drawable/cork"
+                 android:visibility="gone" 
+                android:text="Click here to give a rating!" />
+
+    <!-- Name1 Field -->
+
+    <ImageView
+        android:id="@+id/cork1"
+        android:layout_width="fill_parent"
+        android:layout_height="90px"
+        android:layout_marginTop="100px"
+        android:background="@drawable/cork"
+        android:paddingLeft="70px"
+        android:paddingRight="70px"
+        android:text=""
+        android:textSize="18dip"
+        android:textStyle="bold" />
+    
+
+
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cork1"
+        android:layout_alignLeft="@+id/cork1"
+        android:layout_alignRight="@+id/cork1"
+        android:layout_alignTop="@+id/cork1"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+    <!-- 2 -->
+    
+    
+    <ImageView
+        android:id="@+id/cork2"
+        android:layout_width="fill_parent"
+        android:layout_height="90px"
+        android:layout_marginTop="200px"
+        android:background="@drawable/cork"
+        android:paddingLeft="70px"
+        android:paddingRight="70px"
+        android:text=""
+        android:textSize="18dip"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cork2"
+        android:layout_alignLeft="@+id/cork2"
+        android:layout_alignRight="@+id/cork2"
+        android:layout_alignTop="@+id/cork2"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+    <!-- 3 -->
+    <ImageView
+        android:id="@+id/cork3"
+        android:layout_width="fill_parent"
+        android:layout_height="90px"
+        android:layout_marginTop="300px"
+        android:background="@drawable/cork"
+        android:paddingLeft="70px"
+        android:paddingRight="70px"
+        android:text=""
+        android:textSize="18dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cork3"
+        android:layout_alignLeft="@+id/cork3"
+        android:layout_alignRight="@+id/cork3"
+        android:layout_alignTop="@+id/cork3"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+    <!-- Name4 Field -->
+
+    <ImageView
+        android:id="@+id/cork4"
+        android:layout_width="fill_parent"
+        android:layout_height="90px"
+        android:layout_marginTop="400px"
+        android:background="@drawable/cork"
+        android:paddingLeft="70px"
+        android:paddingRight="70px"
+        android:text=""
+        android:textSize="18dip"
+        android:textStyle="bold" />
+
+    
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cork4"
+        android:layout_alignLeft="@+id/cork4"
+        android:layout_alignRight="@+id/cork4"
+        android:layout_alignTop="@+id/cork4"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+    
+    <!-- 5 -->
+    <ImageView
+        android:id="@+id/cork5"
+        android:layout_width="fill_parent"
+        android:layout_height="90px"
+        android:layout_marginTop="500px"
+        android:background="@drawable/cork"
+        android:paddingLeft="70px"
+        android:paddingRight="70px"
+        android:text=""
+        android:textSize="18dip"
+        android:textStyle="bold" />
+
+   
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cork5"
+        android:layout_alignLeft="@+id/cork5"
+        android:layout_alignRight="@+id/cork5"
+        android:layout_alignTop="@+id/cork5"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+    
+
+
+</RelativeLayout>

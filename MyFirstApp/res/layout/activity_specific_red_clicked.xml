@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background = "@drawable/home" >
+    
+ <!-- Wine Label -->
+<ImageView android:id="@+id/wineLabel"
+     android:layout_width="720px" 
+     android:layout_height="1280px"
+     android:contentDescription="This is the wine label"
+     android:src="@drawable/bottle_template"/>   
+    
+ <!-- Last Button - Eat -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="576px"
+        android:contentDescription="This is the eat screen"
+        android:onClick="eatClicked"
+        android:src="@drawable/eat"/>
+
+   
+  <!-- Fourth Button - Facts -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="432px"
+        android:contentDescription="This is the facts screen"
+        android:onClick="factsClicked"
+        android:src="@drawable/facts"/>
+
+    <!-- Third Button - Review -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="288px"
+        android:contentDescription="This is the review screen"
+        android:onClick="reviewClicked"
+        android:src="@drawable/review"/>
+                    
+                    
+  <!-- Second Button - Terms -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="144px"
+        android:contentDescription="This is the terms screen"
+        android:onClick="termsClicked"
+        android:src="@drawable/terms"/>
+            
+  <!-- First button - Sip -->
+        <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the sip screen"
+        android:src="@drawable/sip_pressed"
+                android:onClick="sipClicked"/>
+
+        
+  <!-- Home Button -->		
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "10px"
+     android:contentDescription="This is the home button"
+     android:onClick="home"
+     android:src="@drawable/home_button"/>
+ 		
+<!-- Help Button -->
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "655px"
+     android:contentDescription="This is the eat screen"
+     android:onClick="help"
+     android:src="@drawable/help"/>
+    
+
+
+<!-- Name Field -->
+    <TextView android:id="@+id/nameText"
+        android:textColor="#990000"
+        android:layout_width="400px"
+        android:layout_height="500px"
+        android:layout_marginTop="500px"
+        android:layout_marginLeft="150px"
+        android:textSize = "35px"
+        android:text="" />
+    
+    <!-- Varietal Field -->
+     <TextView android:id="@+id/varietalText"
+        android:textColor="#990000"
+        android:layout_width="400px"
+        android:layout_height="500px"
+        android:layout_marginTop="675px"
+        android:layout_marginLeft="150px"
+        android:textSize = "35px"
+        android:text="" />
+     
+     
+     <!-- Color Field -->
+      <TextView android:id="@+id/colorText"
+        android:textColor="#990000"
+        android:layout_width="400px"
+        android:layout_height="500px"
+        android:layout_marginTop="800px"
+        android:layout_marginLeft="150px"
+        android:textSize = "35px"
+        android:text="" />
+      
+      <!-- Date Field -->
+       <TextView android:id="@+id/dateText"
+        android:textColor="#990000"
+        android:layout_width="400px"
+        android:layout_height="500px"
+        android:layout_marginTop="925px"
+        android:layout_marginLeft="150px"
+        android:textSize = "35px"        
+        android:text="" />
+       
+       
+           <!-- Next Button -->
+       <Button
+     	android:layout_height="80px"
+     	android:layout_width="120px"
+     	android:layout_marginTop = "100px"
+     	android:layout_marginLeft = "20px"
+    	android:text="Next"
+    	android:background="@drawable/cork"
+    	android:onClick="newRandomClicked" />
+  
+            
+</RelativeLayout>

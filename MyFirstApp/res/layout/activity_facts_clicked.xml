@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background = "@drawable/facts_background" >
+
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "655px"
+     android:contentDescription="This is the eat screen"
+     android:onClick="help"
+     android:src="@drawable/help"/>
+    
+  <!-- Last Button - Eat -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="576px"
+        android:contentDescription="This is the eat screen"
+        android:onClick="eatClicked"
+        android:src="@drawable/eat"/>
+
+   
+  <!-- Fourth Button - Facts -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="432px"
+        android:contentDescription="This is the facts screen"
+        android:src="@drawable/facts_pressed"/>
+
+    <!-- Third Button - Review -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="288px"
+        android:contentDescription="This is the review screen"
+        android:onClick="reviewClicked"
+        android:src="@drawable/review"/>
+                    
+                    
+  <!-- Second Button - Terms -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="144px"
+        android:contentDescription="This is the terms screen"
+        android:onClick="termsClicked"
+        android:src="@drawable/terms"/>
+            
+  <!-- First button - Sip -->
+        <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the sip screen"
+        android:onClick="sipClicked"
+        android:src="@drawable/sip"/>
+      
+  <!-- Wino Dude -->
+         <ImageView android:id="@+id/wino_guy"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_marginTop="745px"
+        android:layout_marginLeft = "420px"
+        android:contentDescription="This is the random facts"
+        android:src="@drawable/wino_guy"/>
+	         
+    
+   <!-- Chat Bubble -->
+        <ImageView android:id="@+id/imageView1"
+        android:layout_width="500px"
+        android:layout_height="745px"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft = "10px"
+        android:contentDescription="This is the sip screen"
+        android:src="@drawable/chat_bubble"/>
+        
+     <TextView android:id="@+id/random_fact"
+        android:layout_width="400px"
+        android:layout_height="600px"
+        android:layout_marginTop = "265px"
+        android:layout_marginLeft = "35px"
+        android:textColor="#990000" />
+    
+  <!-- Home Button -->		
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "10px"
+     android:contentDescription="This is the home button"
+     android:onClick="home"
+     android:src="@drawable/home_button"/>
+    
+</RelativeLayout>

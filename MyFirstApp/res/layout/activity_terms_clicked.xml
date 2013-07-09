@@ -1,0 +1,599 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootlinearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fact"
+            android:layout_width="600px"
+            android:layout_height="300px"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="75px"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:text="This is the terms page.  Scroll to and click on a term to view its definition."
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="700px" 
+        android:layout_marginTop="400px"
+        android:scrollbars="none">
+
+       <LinearLayout
+            android:id="@+id/linearlayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/acidity"
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:text="Acidity" 
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/blend"
+				android:text="Blend" />
+				
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/blush"
+				android:text="Blush" />
+                       
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/body"
+				android:text="Body" />
+
+
+             <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/breathe"
+				android:text="Breathe" />
+                        
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/cap"
+				android:text="Cap" />    
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/corked"
+				android:text="Corked" />     
+				
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/decant"
+				android:text="Decant" />    
+				
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/disgorge"
+				android:text="Disgorge" />    
+				
+            
+             <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/earthy"
+				android:text="Earthy" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/enology"
+				android:text="Enology" />     
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/fining"
+				android:text="Fining" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/fumeblanc"
+				android:text="Fume Blanc" />  
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/graft"
+				android:text="Graft" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/grenache"
+				android:text="Grenache" />     
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/haut"
+				android:text="Haut" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/hectare"
+				android:text="Hectare" />   
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/icewine"
+				android:text="Ice Wine" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/jeroboam"
+				android:text="Jeroboam" />     
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/kabinett"
+				android:text="Kabinett" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/kosher"
+				android:text="Kosher" />     
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/labrusca"
+				android:text="Labrusca" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/lees"
+				android:text="Lees" />     
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/maderized"
+				android:text="Maderized" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/malolactic"
+				android:text="Malolactic" />  
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/negociant"
+				android:text="Negociant" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/nose"
+				android:text="Nose" />     
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/oaky"
+				android:text="Oaky" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/oxidized"
+				android:text="Oxidized" />   
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/phylloxera"
+				android:text="Phylloxera" />     
+
+   <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/plonk"
+				android:text="Plonk" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/racking"
+				android:text="Racking" />   
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/rhone"
+				android:text="Rhone" />    
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/steely"
+				android:text="Steely" />     
+
+   <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/stemmy"
+				android:text="Stemmy" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/tannins"
+				android:text="Tannins" />   
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/terroir"
+				android:text="Terroir" />    
+
+
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/trocken"
+				android:text="Trocken" />   
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/vintage"
+				android:text="Vintage" />    
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/viticulture"
+				android:text="Viticulture" />     
+
+   <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/yeast"
+				android:text="Yeast" />     
+
+ <Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/yield"
+				android:text="Yield" />   
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/acidity"
+                android:textSize="18dip"
+   				android:textStyle="bold"
+                android:background="@drawable/cork" 
+				android:layout_marginTop = "10px" 
+				android:id="@+id/zinfandel"
+				android:text="Zinfandel" />    
+				
+            
+				                  
+
+           
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/linearlayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageViewHelp"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginLeft="655px"
+            android:layout_marginTop="5px"
+            android:contentDescription="This is the eat screen"
+            android:onClick="help"
+            android:src="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="144px"
+            android:layout_height="135px"
+            android:layout_marginLeft="576px"
+            android:layout_marginTop="1145px"
+            android:contentDescription="This is the eat screen"
+            android:onClick="eatClicked"
+            android:src="@drawable/eat" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="144px"
+            android:layout_height="135px"
+            android:layout_marginLeft="432px"
+            android:layout_marginTop="1145px"
+            android:contentDescription="This is the facts screen"
+            android:onClick="factsClicked"
+            android:src="@drawable/facts" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="144px"
+            android:layout_height="135px"
+            android:layout_marginLeft="288px"
+            android:layout_marginTop="1145px"
+            android:contentDescription="This is the review screen"
+            android:onClick="reviewClicked"
+            android:src="@drawable/review" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="144px"
+            android:layout_height="135px"
+            android:layout_marginLeft="144px"
+            android:layout_marginTop="1145px"
+            android:contentDescription="This is the terms screen"
+            android:src="@drawable/terms_pressed" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="144px"
+            android:layout_height="135px"
+            android:layout_marginTop="1145px"
+            android:contentDescription="This is the sip screen"
+            android:onClick="sipClicked"
+            android:src="@drawable/sip" />
+
+        <ImageView
+            android:id="@+id/imageViewHelp"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="5px"
+            android:contentDescription="This is the home button"
+            android:onClick="home"
+            android:src="@drawable/home_button" />
+    </RelativeLayout>
+
+</RelativeLayout>

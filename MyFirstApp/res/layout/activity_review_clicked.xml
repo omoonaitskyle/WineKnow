@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background = "@drawable/terms_background" >
+
+<ImageView android:id="@+id/giveReviewButton"
+     android:layout_width="520px"
+     android:layout_height="200px"
+     android:layout_marginTop = "339px"
+     android:layout_marginLeft = "100px"
+     android:contentDescription="Button for giving a review"
+     android:onClick="giveRatingClicked"
+     android:src="@drawable/give_review_button_info"/>
+
+
+<ImageView android:id="@+id/viewReviewsButton"
+     android:layout_width="520px"
+     android:layout_height="200px"
+     android:layout_marginTop = "539px"
+     android:layout_marginLeft = "100px"
+     android:contentDescription="Button for viewing a reviews"
+     android:onClick="viewRatingClicked"
+     android:src="@drawable/view_reviews_button_info"/>
+    
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "655px"
+     android:contentDescription="This is the eat screen"
+     android:onClick="help"
+     android:src="@drawable/help"/>
+    
+  <!-- Last Button - Eat -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="576px"
+        android:contentDescription="This is the eat screen"
+        android:onClick="eatClicked"
+        android:src="@drawable/eat"/>
+
+   
+  <!-- Fourth Button - Facts -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="432px"
+        android:contentDescription="This is the facts screen"
+        android:onClick="factsClicked"
+        android:src="@drawable/facts"/>
+
+    <!-- Third Button - Review -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="288px"
+        android:contentDescription="This is the review screen"
+        android:src="@drawable/review_pressed"/>
+                    
+                    
+  <!-- Second Button - Terms -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="144px"
+        android:contentDescription="This is the terms screen"
+        android:onClick="termsClicked"
+        android:src="@drawable/terms"/>
+            
+  <!-- First button - Sip -->
+        <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the sip screen"
+        android:onClick="sipClicked"
+        android:src="@drawable/sip"/>
+
+
+  <!-- Home Button -->		
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "10px"
+     android:contentDescription="This is the home button"
+     android:onClick="home"
+     android:src="@drawable/home_button"/>
+ 		
+</RelativeLayout>

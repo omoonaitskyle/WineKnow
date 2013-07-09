@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home" >
+
+        <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="1000px"
+        android:layout_marginTop = "100px" >
+        
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="144px"     
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        
+       <!-- Sweets -->
+
+        <ImageView
+            android:id="@+id/eat_sweets"
+            android:layout_width="720px"
+            android:layout_height="106px"
+            android:src="@drawable/eat_sweets" />  
+
+        <!-- Cured Meat -->
+
+        <ImageView
+            android:id="@+id/eat_cured_meat"
+            android:layout_width="720px"
+            android:layout_height="106px"
+            android:layout_marginTop = "10px"
+            android:src="@drawable/eat_cured_meat" />
+        
+        <!-- Red Meat -->
+
+        <ImageView
+            android:id="@+id/eat_red_meat"
+            android:layout_width="720px"
+            android:layout_height="106px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/eat_red_meat" />
+
+        <!-- White Meat -->
+
+        <ImageView
+            android:id="@+id/eat_white_meat"
+            android:layout_width="720px"
+            android:layout_height="106px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/eat_white_meat" />
+
+        <!-- Rich Fish -->
+
+        <ImageView
+            android:id="@+id/eat_rich_fish"
+            android:layout_width="720px"
+            android:layout_height="106px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/eat_rich_fish" />
+
+        <!-- Fish -->
+
+        <ImageView
+            android:id="@+id/eat_fish"
+            android:layout_width="720px"
+            android:layout_height="106px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/eat_fish" />
+
+        <!-- Breads -->
+
+        <ImageView
+            android:id="@+id/eat_breads"
+            android:layout_width="720px"
+            android:layout_height="106px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/eat_breads" />
+
+        <!-- Cheese 
+
+        <ImageView
+            android:id="@+id/eat_cheese"
+            android:layout_width="720px"
+            android:layout_height="106px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/eat_cheese" />
+            -->
+
+        <!-- Roasted Vegetables -->
+
+        <ImageView
+            android:id="@+id/eat_roasted_veggies"
+            android:layout_width="720px"
+            android:layout_height="106px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/eat_roasted_veggies" />
+
+        <!-- Vegetables -->
+
+        <ImageView
+            android:id="@+id/eat_veggies"
+            android:layout_width="720px"
+            android:layout_height="106px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/eat_veggies" />
+
+
+    </LinearLayout>
+	</ScrollView>
+    <RelativeLayout
+        android:id="@+id/linearlayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageViewHelp"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginLeft="655px"
+            android:layout_marginTop="5px"
+            android:contentDescription="This is the eat screen"
+            android:onClick="help"
+            android:src="@drawable/help" />
+
+        <!-- Last Button - Eat -->
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="144px"
+            android:layout_height="135px"
+            android:layout_marginLeft="576px"
+            android:layout_marginTop="1145px"
+            android:contentDescription="This is the eat screen"
+            android:onClick = "eatClicked"
+            android:src="@drawable/eat_pressed" />
+
+        <!-- Fourth Button - Facts -->
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="144px"
+            android:layout_height="135px"
+            android:layout_marginLeft="432px"
+            android:layout_marginTop="1145px"
+            android:contentDescription="This is the facts screen"
+            android:onClick= "factsClicked"
+            android:src="@drawable/facts" />
+
+        <!-- Third Button - Review -->
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="144px"
+            android:layout_height="135px"
+            android:layout_marginLeft="288px"
+            android:layout_marginTop="1145px"
+            android:contentDescription="This is the review screen"
+            android:onClick="reviewClicked"
+            android:src="@drawable/review" />
+
+        <!-- Second Button - Terms -->
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="144px"
+            android:layout_height="135px"
+            android:layout_marginLeft="144px"
+            android:layout_marginTop="1145px"
+            android:contentDescription="This is the terms screen"
+            android:onClick="termsClicked"
+            android:src="@drawable/terms" />
+
+        <!-- First button - Sip -->
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="144px"
+            android:layout_height="135px"
+            android:layout_marginTop="1145px"
+            android:contentDescription="This is the sip screen"
+            android:onClick="sipClicked"
+            android:src="@drawable/sip" />
+                <!-- Home Button -->
+
+  <!-- Home Button -->		
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "10px"
+     android:contentDescription="This is the home button"
+     android:onClick="home"
+     android:src="@drawable/home_button"/>
+    </RelativeLayout>
+
+</RelativeLayout>

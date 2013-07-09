@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+        android:background = "@drawable/home" >
+
+
+    
+  <!-- Last Button - Eat -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="156px"
+        android:layout_height="136px"
+        android:layout_marginTop="1120px"
+        android:layout_marginLeft="544px"
+        android:contentDescription="This is the eat screen"
+        android:onClick="eatClicked"
+        android:src="@drawable/termspressed"/>
+
+   
+  <!-- Fourth Button - Facts -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="156px"
+        android:layout_height="136px"
+        android:layout_marginTop="1120px"
+        android:layout_marginLeft="408px"
+        android:contentDescription="This is the facts screen"
+        android:onClick="factsClicked"
+        android:src="@drawable/terms"/>
+
+    <!-- Third Button - Review -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="156px"
+        android:layout_height="136px"
+        android:layout_marginTop="1120px"
+        android:layout_marginLeft="272px"
+        android:contentDescription="This is the review screen"
+        android:onClick="reviewClicked"
+        android:src="@drawable/terms"/>
+                    
+                    
+  <!-- Second Button - Terms -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="156px"
+        android:layout_height="136px"
+        android:layout_marginTop="1120px"
+        android:layout_marginLeft="136px"
+        android:contentDescription="This is the terms screen"
+        android:onClick="termsClicked"
+        android:src="@drawable/terms"/>
+            
+  <!-- First button - Sip -->
+        <ImageView android:id="@+id/imageView1"
+        android:layout_width="156px"
+        android:layout_height="136px"
+        android:layout_marginTop="1120px"
+        android:contentDescription="This is the sip screen"
+        android:onClick="sipClicked"
+        android:src="@drawable/terms"/> 
+    
+</RelativeLayout>
+

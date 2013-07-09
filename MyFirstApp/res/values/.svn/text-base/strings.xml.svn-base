@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My First App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_click_on_picture">ClickOnPicture</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_send_clicked">SendClicked</string>
+    <string name="title_activity_back_button_clicked">BackButtonClicked</string>
+    <string name="title_activity_tits_clicked">TitsClicked</string>
+    <string name="title_activity_clicked_on_picture">ClickedOnPicture</string>
+    <string name="title_activity_sip_clicked">SipClicked</string>
+    <string name="title_activity_find_clicked">FindClicked</string>
+    <string name="title_activity_eat_clicked">EatClicked</string>
+    <string name="title_activity_pair_clicked">PairClicked</string>
+    <string name="title_activity_review_clicked">ReviewClicked</string>
+    <string name="title_activity_facts_clicked">FactsClicked</string>
+    <string name="title_activity_terms_clicked">TermsClicked</string>
+    <string name="title_activity_hello">Hello</string>
+    <string name="title_activity_hello_clicked">HelloClicked</string>
+    <string name="title_activity_help">Help</string>
+
+</resources>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.myfirstapp.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.example.myfirstapp.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.ClickOnPicture"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_click_on_picture"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.SendClicked"
+            android:label="@string/title_activity_send_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.BackButtonClicked"
+            android:label="@string/title_activity_back_button_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.TitsClicked"
+            android:label="@string/title_activity_tits_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.ClickedOnPicture"
+            android:label="@string/title_activity_clicked_on_picture"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.SipClicked"
+            android:label="@string/title_activity_sip_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+             >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.FindClicked"
+            android:label="@string/title_activity_find_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.EatClicked"
+            android:label="@string/title_activity_eat_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.ReviewClicked"
+            android:label="@string/title_activity_review_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.FactsClicked"
+            android:label="@string/title_activity_facts_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.TermsClicked"
+            android:label="@string/title_activity_terms_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.PairingClicked"
+            android:label="@string/title_activity_pairing_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.RecipeClicked"
+            android:label="@string/title_activity_recipe_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.Hello"
+            android:label="@string/title_activity_hello" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.HelloClicked"
+            android:label="@string/title_activity_hello_clicked" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.Help"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.RandomFactClicked"
+            android:label="@string/title_activity_random_fact_clicked"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.ScrollTest"
+            android:label="@string/title_activity_scroll_test"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.RandomWine"
+            android:label="@string/title_activity_random_wine"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.SpecificWine"
+            android:label="@string/title_activity_specific_wine"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.SpecificRedClicked"
+            android:label="@string/title_activity_specific_red_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.SpecificWhiteClicked"
+            android:label="@string/title_activity_specific_white_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.VarietalClicked"
+            android:label="@string/title_activity_varietal_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.CabernetClicked"
+            android:label="@string/title_activity_cabernet_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.ShirazClicked"
+            android:label="@string/title_activity_shiraz_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.ChardonnayClicked"
+            android:label="@string/title_activity_chardonnay_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.PinotNoirClicked"
+            android:label="@string/title_activity_pinot_noir_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.RieslingClicked"
+            android:label="@string/title_activity_riesling_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.MerlotClicked"
+            android:label="@string/title_activity_merlot_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.DescriptorClicked"
+            android:label="@string/title_activity_descriptor_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.GiveRatingClicked"
+            android:label="@string/title_activity_give_rating_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.ViewRatingClicked"
+            android:label="@string/title_activity_view_rating_clicked"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.DescriptorSelected"
+            android:label="@string/title_activity_descriptor_selected"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.DisplayPairingWine"
+            android:label="@string/title_activity_display_pairing_wine"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.VarietalSelected"
+            android:label="@string/title_activity_varietal_selected" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

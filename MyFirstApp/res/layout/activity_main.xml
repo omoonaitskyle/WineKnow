@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background = "@drawable/home_background" >
+
+
+    <!-- Help Button -->    
+   <ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "655px"
+     android:contentDescription="This is the eat screen"
+     android:onClick="help"
+     android:src="@drawable/help"/>     
+  
+  <!-- Last Button - Eat -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="576px"
+        android:contentDescription="This is the eat screen"
+        android:onClick="eatClicked"
+        android:src="@drawable/eat"/>
+
+   
+  <!-- Fourth Button - Facts -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="432px"
+        android:contentDescription="This is the facts screen"
+        android:onClick="factsClicked"
+        android:src="@drawable/facts"/>
+
+    <!-- Third Button - Review -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="288px"
+        android:contentDescription="This is the review screen"
+        android:onClick="reviewClicked"
+        android:src="@drawable/review"/>
+                    
+                    
+  <!-- Second Button - Terms -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="144px"
+        android:contentDescription="This is the terms screen"
+        android:onClick="termsClicked"
+        android:src="@drawable/terms"/>
+            
+  <!-- First button - Sip -->
+        <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the sip screen"
+        android:onClick="sipClicked"
+        android:src="@drawable/sip"/>
+        
+
+      
+            
+         
+    
+</RelativeLayout>

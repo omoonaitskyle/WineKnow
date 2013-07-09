@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.myfirstapp.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.example.myfirstapp.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.ClickOnPicture"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_click_on_picture"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.SendClicked"
+            android:label="@string/title_activity_send_clicked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.BackButtonClicked"
+            android:label="@string/title_activity_back_button_clicked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.TitsClicked"
+            android:label="@string/title_activity_tits_clicked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.ClickedOnPicture"
+            android:label="@string/title_activity_clicked_on_picture"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.SipClicked"
+            android:label="@string/title_activity_sip_clicked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.FindClicked"
+            android:label="@string/title_activity_find_clicked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.EatClicked"
+            android:label="@string/title_activity_eat_clicked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.PairClicked"
+            android:label="@string/title_activity_pair_clicked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.ReviewClicked"
+            android:label="@string/title_activity_review_clicked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.FactsClicked"
+            android:label="@string/title_activity_facts_clicked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.TermsClicked"
+            android:label="@string/title_activity_terms_clicked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.Hello"
+            android:label="@string/title_activity_hello" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.HelloClicked"
+            android:label="@string/title_activity_hello_clicked" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+
+</manifest>

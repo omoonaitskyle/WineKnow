@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootlinearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home"
+    android:orientation="vertical" >
+
+<!-- Barrels -->
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="1280px" 
+     android:layout_width="720px"
+     android:src="@drawable/barrel_template" />
+
+<!-- Cabernet Saugvinon -->
+  <TextView
+            android:id="@+id/cabernetSauvignon"
+            android:layout_width="200px"
+            android:layout_height="83px"
+            android:layout_marginLeft="260px"
+            android:layout_marginTop="405px"
+            android:gravity="center"
+            android:text="Cabernet Saugvinon"
+            android:clickable="true"
+            android:textColor="#ffffff" />
+            <!-- android:onClick = "cabernetClicked" -->
+  
+<!-- Shiraz -->
+    <TextView
+            android:id="@+id/shiraz"
+            android:layout_width="200px"
+            android:layout_height="83px"
+            android:layout_marginLeft="145px"
+            android:layout_marginTop="605px"
+            android:gravity = "center"
+            android:text="Shiraz"
+            android:clickable ="true"
+            android:textColor="#ffffff" />
+            <!-- android:onClick = "shirazClicked" -->
+ 
+<!-- Chardonnay -->    
+      <TextView
+            android:id="@+id/chardonnay"
+            android:layout_width="200px"
+            android:layout_height="83px"
+            android:layout_marginLeft="375px"
+            android:layout_marginTop="605px"
+            android:gravity = "center"
+            android:text="Chardonnay"
+            android:clickable ="true"
+            android:textColor="#ffffff" />
+            <!-- android:onClick = "chardonnayClicked" -->
+      
+<!-- Pinot Noir -->      
+        <TextView
+            android:id="@+id/pinotNoir"
+            android:layout_width="200px"
+            android:layout_height="83px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="800px"
+            android:gravity = "center"
+            android:text="Pinot Noir"
+            android:clickable ="true"
+            android:textColor="#ffffff" />
+            <!-- android:onClick = "pinotClicked" -->
+        
+<!-- Merlot -->        
+          <TextView
+            android:id="@+id/merlot"
+            android:layout_width="200px"
+            android:layout_height="83px"
+            android:layout_marginLeft="260px"
+            android:layout_marginTop="800px"
+            android:gravity = "center"
+            android:text="Merlot"
+            android:clickable ="true"
+            android:textColor="#ffffff" />
+            <!-- android:onClick = "merlotClicked" -->
+          
+<!-- Riesling -->
+            <TextView
+            android:id="@+id/riesling"
+            android:layout_width="200px"
+            android:layout_height="83px"
+            android:layout_marginLeft="495px"
+            android:layout_marginTop="800px"
+            android:gravity = "center"
+            android:text="Riesling"
+            android:clickable ="true"
+            android:textColor="#ffffff" />
+            <!-- android:onClick = "rieslingClicked" -->
+    
+  <!-- Last Button - Eat -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="570px"
+        android:contentDescription="This is the eat screen"
+        android:onClick="eatClicked"
+        android:src="@drawable/eat"/>
+
+   
+  <!-- Fourth Button - Facts -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="432px"
+        android:contentDescription="This is the facts screen"
+        android:onClick="factsClicked"
+        android:src="@drawable/facts"/>
+
+    <!-- Third Button - Review -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="288px"
+        android:contentDescription="This is the review screen"
+        android:onClick="reviewClicked"
+        android:src="@drawable/review"/>
+                    
+                    
+  <!-- Second Button - Terms -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="144px"
+        android:contentDescription="This is the terms screen"
+        android:onClick="termsClicked"
+        android:src="@drawable/terms"/>
+            
+  <!-- First button - Sip -->
+        <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the sip screen"
+                android:onClick="sipClicked"
+        android:src="@drawable/sip_pressed"/>
+
+  <!-- Home Button -->		
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "10px"
+     android:contentDescription="This is the home button"
+     android:onClick="home"
+     android:src="@drawable/home_button"/>
+ 		
+<!-- Help Button -->
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px" 
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "655px"
+     android:contentDescription="This is the eat screen"
+     android:onClick="help"
+     android:src="@drawable/help"/>
+
+
+
+
+
+</RelativeLayout>

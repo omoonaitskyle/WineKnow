@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WineKnow</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_click_on_picture">ClickOnPicture</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_send_clicked">SendClicked</string>
+    <string name="title_activity_back_button_clicked">BackButtonClicked</string>
+    <string name="title_activity_tits_clicked">TitsClicked</string>
+    <string name="title_activity_clicked_on_picture">ClickedOnPicture</string>
+    <string name="title_activity_sip_clicked">SipClicked</string>
+    <string name="title_activity_find_clicked">FindClicked</string>
+    <string name="title_activity_eat_clicked">EatClicked</string>
+    <string name="title_activity_pair_clicked">PairClicked</string>
+    <string name="title_activity_pairing_clicked">PairingClicked</string>
+    <string name="title_activity_recipe_clicked">RecipeClicked</string>
+    <string name="title_activity_review_clicked">ReviewClicked</string>
+    <string name="title_activity_facts_clicked">FactsClicked</string>
+    <string name="title_activity_terms_clicked">TermsClicked</string>
+    <string name="title_activity_hello">Hello</string>
+    <string name="title_activity_hello_clicked">HelloClicked</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_random_fact_clicked">RandomFactClicked</string>
+    <string name="title_activity_scroll_test">ScrollTest</string>
+    <string name="title_activity_random_wine">RandomWine</string>
+    <string name="title_activity_specific_wine">SpecificWine</string>
+    <string name="title_activity_specific_red_clicked">SpecificRedClicked</string>
+    <string name="title_activity_specific_white_clicked">SpecificWhiteClicked</string>
+    <string name="title_activity_varietal_clicked">VarietalClicked</string>
+    <string name="title_activity_cabernet_clicked">CabernetClicked</string>
+    <string name="title_activity_shiraz_clicked">ShirazClicked</string>
+    <string name="title_activity_chardonnay_clicked">ChardonnayClicked</string>
+    <string name="title_activity_pinot_noir_clicked">PinotNoirClicked</string>
+    <string name="title_activity_riesling_clicked">RieslingClicked</string>
+    <string name="title_activity_merlot_clicked">MerlotClicked</string>
+    <string name="title_activity_descriptor_clicked">DescriptorClicked</string>
+    <string name="title_activity_descriptor_selected">DescriptorSelected</string>
+    <string name="title_activity_give_rating_clicked">GiveRatingClicked</string>
+    <string name="title_activity_view_rating_clicked">ViewRatingClicked</string>
+    <string name="title_activity_display_pairing_wine">DisplayPairingWine</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_varietal_selected">VarietalSelected</string>
+
+</resources>

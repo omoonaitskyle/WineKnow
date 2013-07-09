@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/help_screen" 
+    tools:context=".Help" >
+
+    <ImageView android:id="@+id/exit_button"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "10px"
+     android:contentDescription="This is the exit button"
+     android:onClick="home"
+     android:src="@drawable/close_box_red"/>
+ 
+
+</RelativeLayout>

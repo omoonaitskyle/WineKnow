@@ -1,0 +1,324 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home" >
+
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "655px"
+     android:contentDescription="This is the eat screen"
+     android:onClick="help"
+     android:src="@drawable/help"/>
+    
+  <!-- Last Button - Eat -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="576px"
+        android:contentDescription="This is the eat screen"
+        android:onClick="eatClicked"
+        android:src="@drawable/eat"/>
+
+   
+  <!-- Fourth Button - Facts -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="432px"
+        android:contentDescription="This is the facts screen"
+        android:onClick="factsClicked"
+        android:src="@drawable/facts"/>
+
+    <!-- Third Button - Review -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="288px"
+        android:contentDescription="This is the review screen"
+        android:onClick = "reviewClicked"
+        android:src="@drawable/review_pressed"/>
+                    
+                    
+  <!-- Second Button - Terms -->
+  <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:layout_marginLeft="144px"
+        android:contentDescription="This is the terms screen"
+        android:onClick="termsClicked"
+        android:src="@drawable/terms"/>
+            
+  <!-- First button - Sip -->
+        <ImageView android:id="@+id/imageView1"
+        android:layout_width="144px"
+        android:layout_height="135px"
+        android:layout_marginTop="1145px"
+        android:contentDescription="This is the sip screen"
+        android:onClick="sipClicked"
+        android:src="@drawable/sip"/>
+
+
+  <!-- Home Button -->		
+<ImageView android:id="@+id/imageViewHelp"
+     android:layout_height="50px"
+     android:layout_width="50px"
+     android:layout_marginTop = "5px"
+     android:layout_marginLeft = "10px"
+     android:contentDescription="This is the home button"
+     android:onClick="home"
+     android:src="@drawable/home_button"/>
+    
+     <ImageView
+     android:id="@+id/blanksquare"
+     android:layout_marginTop="315px"
+     android:layout_marginLeft="50px"
+     android:layout_width="620px"
+     android:layout_height="800px"
+     android:src="@drawable/blanksquare"
+     android:visibility="gone"/>
+     
+    <LinearLayout
+        android:id="@+id/linearlayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- Name1 Field -->
+
+
+        <Button
+            android:id="@+id/name1Text"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="100px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text=""
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <!-- Name2 Field //70, 675 -->
+
+        <Button
+            android:id="@+id/name2Text"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text=""
+            android:textSize="18dip"
+            android:textStyle="bold" />
+        <!-- Name3 Field -->
+
+        <Button
+            android:id="@+id/name3Text"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text=""
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <!-- Name4 Field -->
+
+        <Button
+            android:id="@+id/name4Text"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text=""
+            android:textSize="18dip"
+            android:textStyle="bold" />
+        <!-- Name5 Field -->
+
+        <Button
+            android:id="@+id/name5Text"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text=""
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <!-- Name6 Field -->
+
+        <Button
+            android:id="@+id/name6Text"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text=""
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <!-- Name7 Field -->
+
+        <Button
+            android:id="@+id/name7Text"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text=""
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <!-- Name8 Field -->
+
+        <Button
+            android:id="@+id/name8Text"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text=""
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <!-- Name9 Field -->
+
+        <Button
+            android:id="@+id/name9Text"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text=""
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <!-- Name10 Field -->
+
+        <Button
+            android:id="@+id/name10Text"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text=""
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rating_text"
+            android:layout_width="fill_parent"
+            android:layout_height="160px"
+            android:layout_marginTop="100px"
+           	android:text="Rate this wine on a scale of 1 - 5!"
+           	android:textColor="#FFFFFF"
+           	android:textSize="18dp"
+           	android:textStyle="bold"
+           	android:gravity = "center"
+             />
+            
+       
+        <ImageView
+            android:id="@+id/one_glass"
+            android:layout_width="500px"
+            android:layout_height="150px"
+            android:layout_marginTop="60px"
+            android:src="@drawable/one_glass"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/two_glass"
+            android:layout_width="500px"
+            android:layout_height="150px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/two_glass"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/three_glass"
+            android:layout_width="500px"
+            android:layout_height="150px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/three_glass"
+            android:visibility="gone" 
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/four_glass"
+            android:layout_width="500px"
+            android:layout_height="150px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/four_glass"
+            android:visibility="gone" 
+            android:layout_gravity="center"   />
+
+        <ImageView
+            android:id="@+id/five_glass"
+            android:layout_width="500px"
+            android:layout_height="150px"
+            android:layout_marginTop="10px"
+            android:src="@drawable/five_glass"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+        
+        <Button
+            android:id="@+id/rate_another_wine"
+            android:layout_width="fill_parent"
+            android:layout_height="125px"
+            android:layout_marginTop="200px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text="Rate another wine!"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:onClick = "giveRating" />
+        
+                <Button
+            android:id="@+id/getRatings"
+            android:layout_width="fill_parent"
+            android:layout_height="125px"
+            android:layout_marginTop = "10px"
+            android:background="@drawable/cork"
+            android:paddingLeft="70px"
+            android:paddingRight="70px"
+            android:text="Check Your Ratings!"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:onClick = "getRating" />
+            
+           
+
+
+    </LinearLayout>
+    
+
+
+</RelativeLayout>

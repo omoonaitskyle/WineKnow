@@ -1,0 +1,238 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootlinearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home"
+    android:orientation="vertical" >
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="1000px"
+            android:layout_marginTop = "100px"
+            android:scrollbars="none" >
+
+                <LinearLayout
+        android:id="@+id/linearlayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/light"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:layout_below="@+id/acidity"
+                    android:layout_marginTop="10px"
+                    android:background="@drawable/plaque"
+                    android:text="Light"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/fruity"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:background="@drawable/plaque"
+                    android:text="Fruity"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/smooth"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:layout_below="@+id/acidity"
+                    android:layout_marginTop="10px"
+                    android:background="@drawable/plaque"
+                    android:text="Smooth"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/supple"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:layout_below="@+id/acidity"
+                    android:layout_marginTop="10px"
+                    android:background="@drawable/plaque"
+                    android:text="Supple"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/earthy"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:layout_below="@+id/acidity"
+                    android:layout_marginTop="10px"
+                    android:background="@drawable/plaque"
+                    android:text="Earthy"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/spicy"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:layout_below="@+id/acidity"
+                    android:layout_marginTop="10px"
+                    android:background="@drawable/plaque"
+                    android:text="Spicy"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/big"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:layout_below="@+id/acidity"
+                    android:layout_marginTop="10px"
+                    android:background="@drawable/plaque"
+                    android:text="Big"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bold"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:layout_below="@+id/acidity"
+                    android:layout_marginTop="10px"
+                    android:background="@drawable/plaque"
+                    android:text="Bold"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/crisp"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:layout_below="@+id/acidity"
+                    android:layout_marginTop="10px"
+                    android:background="@drawable/plaque"
+                    android:text="Crisp"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/rich"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:layout_below="@+id/acidity"
+                    android:layout_marginTop="10px"
+                    android:background="@drawable/plaque"
+                    android:text="Rich"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/creamy"
+                    android:layout_width="720px"
+                    android:layout_height="150px"
+                    android:layout_below="@+id/acidity"
+                    android:layout_marginTop="10px"
+                    android:background="@drawable/plaque"
+                    android:text="Creamy"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                </LinearLayout>
+        </ScrollView>
+
+            
+<RelativeLayout
+        android:id="@+id/linearlayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+            <!-- Last Button - Eat -->
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="144px"
+                android:layout_height="135px"
+                android:layout_marginLeft="576px"
+                android:layout_marginTop="1145px"
+                android:contentDescription="This is the eat screen"
+                android:onClick="eatClicked"
+                android:src="@drawable/eat" />
+
+            <!-- Fourth Button - Facts -->
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="144px"
+                android:layout_height="135px"
+                android:layout_marginLeft="432px"
+                android:layout_marginTop="1145px"
+                android:contentDescription="This is the facts screen"
+                android:onClick="factsClicked"
+                android:src="@drawable/facts" />
+
+            <!-- Third Button - Review -->
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="144px"
+                android:layout_height="135px"
+                android:layout_marginLeft="288px"
+                android:layout_marginTop="1145px"
+                android:contentDescription="This is the review screen"
+                android:onClick="reviewClicked"
+                android:src="@drawable/review" />
+
+            <!-- Second Button - Terms -->
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="144px"
+                android:layout_height="135px"
+                android:layout_marginLeft="144px"
+                android:layout_marginTop="1145px"
+                android:contentDescription="This is the terms screen"
+                android:onClick = "termsClicked"
+                android:src="@drawable/terms" />
+
+            <!-- First button - Sip -->
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="144px"
+                android:layout_height="135px"
+                android:layout_marginTop="1145px"
+                android:contentDescription="This is the sip screen"
+                        android:onClick="sipClicked"
+                android:src="@drawable/sip_pressed" />
+            
+            
+                <!-- Help Button -->
+
+        <ImageView
+            android:id="@+id/imageViewHelp"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginLeft="655px"
+            android:layout_marginTop="5px"
+            android:contentDescription="This is the eat screen"
+            android:onClick="help"
+            android:src="@drawable/help" />
+        
+        <!-- Home Button -->
+
+        <ImageView
+            android:id="@+id/imageViewHelp"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="5px"
+            android:contentDescription="This is the home button"
+            android:onClick="home"
+            android:src="@drawable/home_button" />
+            
+	</RelativeLayout>
+
+</RelativeLayout>
